@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: secondapp
+  security: # to secure the endpoints
+    user:
+      name: admin
+      password: password
+  datasource:
+    url: jdbc:mysql://localhost:3306/secondapp
+    username: admin
+    password: password
+
+server:
+  port: 8484 # default port is 8080
+
+# custom properties
+person:
+  name: Prateek Jha
+
+city:
+  name: New Delhi
+
+# actuators
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        exclude: beans,mapping
+      base-path: /actuator
+
+
