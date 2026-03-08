@@ -30,3 +30,20 @@ Deep dive into Spring's Inversion of Control (IoC) and Dependency Injection (DI)
 | `09-java-config-bean` | Create beans with `@Configuration` and `@Bean` for 3rd party classes |
 
 ---
+
+## 📁 03-spring-boot-hibernate-jpa-crud
+
+JPA/Hibernate with MySQL — EntityManager, entities, JPQL, CRUD.
+
+| Project | Description |
+|---------|-------------|
+| `01-cruddemo-student-create` | `persist()` — INSERT |
+| `02-cruddemo-student-read` | `find()` — SELECT by ID |
+| `03-cruddemo-student-query-findAll` | JPQL — SELECT all |
+| `04-cruddemo-student-query-findByLastName` | JPQL WHERE + named params |
+| `05-cruddemo-student-update` | `merge()` — UPDATE |
+| `06-cruddemo-student-delete-single-student` | `remove()` — DELETE single |
+| `07-cruddemo-student-query-delete-all-students` | JPQL DELETE — bulk delete |
+| `08-cruddemo-create-db-tables-automatically` | `ddl-auto` — schema from entities |
+
+---
